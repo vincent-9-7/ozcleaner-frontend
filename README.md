@@ -1,4 +1,4 @@
-# Still developing on this website..
+# Still developing this website..
 ## See the demo: https://cleaners.netlify.app/
 > You can have a view of main page and click "booking button" change to the order page.
 > <br>
