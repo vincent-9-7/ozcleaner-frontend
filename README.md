@@ -1,4 +1,5 @@
 # Still developing this website..
+# It will use redux-saga to store the data in future.
 ## See the demo: https://cleaners.netlify.app/
 > You can have a view of main page and click "booking button" change to the order page.
 > <br>
