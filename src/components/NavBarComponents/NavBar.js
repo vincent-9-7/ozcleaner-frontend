@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
+import Link from '@material-ui/core/Link'
 import {
   Grid,
   Button,
@@ -50,7 +51,9 @@ export default function HeaderNavigation(props) {
         <Grid item className={style.container}>
           <Toolbar>
             <Grid className={style.grow}>
-              <Button>Logo</Button>
+              <Link href="/">
+                <Button>Logo</Button>
+              </Link>
             </Grid>
             <IconButton
               className={style.menuButton}
@@ -61,7 +64,9 @@ export default function HeaderNavigation(props) {
               <MenuIcon />
             </IconButton>
             <Box className={style.buttonsBox}>
-              <Button className={style.bookingButton}>Booking Now</Button>
+              <Link href="/order">
+                <Button className={style.bookingButton}>Booking Now</Button>
+              </Link>
               <FormDialog />
               <Button>Login</Button>
             </Box>
